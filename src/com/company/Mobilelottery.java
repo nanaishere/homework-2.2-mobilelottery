@@ -9,10 +9,10 @@ public class Mobilelottery {
         int bonus = payment / 100;
 
         int totalbonus;
-        if (payment > 1000)
-        { totalbonus = balance + payment + bonus;
-        }  else {
-            totalbonus = payment + balance ;
+        if (payment > 1000) {
+            totalbonus = balance + payment + bonus;
+        } else {
+            totalbonus = payment + balance;
         }
 
         System.out.println(totalbonus);
