@@ -1,6 +1,6 @@
 package com.company;
 
-public class Mobilelottery {
+public class Main {
     public static void main(String[] args) {
 
         int balance;
